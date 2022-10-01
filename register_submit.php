@@ -6,7 +6,7 @@
     $phone_no = $_POST['phone_no'];
     $email = $_POST['email'];
     $address = $_POST['address'];
-    $date_of_birth = $_POST['date_of_birth'];
+    $date_of_birth = $_POST['date_of_birth']
 
     echo $fname . "<br/>";
     echo $lname . "<br/>";
