@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title>Registartion Form</title>
+</head>
+<body>
+	<link rel="stylesheet" href="form_styling.css">
+	<h1 align ="center">Registration Form</h1>
+	<form name="registration" class="registration_form" method="post" action="register_submit.php">
+		<table align ="center">
+			<tr>
+				<td><label for="fname">First Name : <label></td>
+				<td> <input type="text" id="fname" name="fname"></input></td>
+			</tr>
+			<tr>
+				<td><label for="lname">Last Name : <label></td>
+				<td><input type="text" id="lname" name="lname"></input></td>
+		    </tr>
+		    <tr>
+		    	<td><label for="gender">Gender : </label></td>
+		    	<td>M<input type="radio" id="gender" name="gender" value="male"></input>
+		    	F<input type="radio" id="gender" name="gender" value="female"></input>
+		    	Other<input type="radio" id="gender" name="gender" value="other"></input></td>
+		    </tr>
+		    <tr>
+		    	<td><label for="phone_no">Phone No. : </label></td>
+		    	<td><input type="number" name="phone_no" id="phone_no"></input></td>
+		    </tr>
+		    <tr>
+		    	<td><label for="email">Email : </label></td>
+		    	<td><input type="email" name="email" id="email"></input></td>
+		    </tr>
+		    <tr>
+		    	<td><label for="address">Address : </label></td>
+		    	<td><textarea name="address" rows="7" cols="40"></textarea></td>
+		    </tr>
+		    <tr>
+		    	<td><label for="date_of_birth">Date of Birth : </label></td>
+		    	<td> <input type="date" name="date_of_birth" id="date_of_birth"></input></td>
+		    </tr>
+		</table>
+		<br><br>
+		<div class="button">
+			<input type="submit"/>
+		</div>
+	</form>
+</body>
+</html>
+

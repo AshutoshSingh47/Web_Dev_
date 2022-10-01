@@ -1,0 +1,22 @@
+body {
+  background-color: lightblue;
+}
+ input[type=submit] {
+  background-color: #04AA6D;
+  border: 2px ;
+  color: white;
+  padding: 5px 5px;
+  text-decoration: none;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+input [type=text], input[type=text], input[type=password], input[type=email]
+{
+  padding: 2px;
+  margin: 5px;
+  border: 4px groove;
+}
+
+table{
+  background-color:#f2f2d1; 
+}

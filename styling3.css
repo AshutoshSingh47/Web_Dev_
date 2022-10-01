@@ -1,0 +1,25 @@
+.container{
+	border: 1px solid green;
+	display: flex;
+	flex-direction: row;
+	flex-flow: row nowrap;
+	width:500px;
+}
+.container>div{
+	border: 2px solid red;
+	width: 200px;
+}
+.abc{
+	flex: 0 1 100px;
+	align-self:center;
+}
+.bcd{
+	flex: 0 1 100px;
+	align-self:flex-end;
+}
+.efg{
+	flex: 0 1 100px;
+}
+body{
+	background-color: grey;
+}

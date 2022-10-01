@@ -1,0 +1,16 @@
+/*body{
+	background-color: grey;
+}
+// Media Queries
+@media (min-width:600px)
+{
+	body {
+		font-size: 2px;
+		background-color:orange ;
+	}
+}*/
+
+.form{
+	max-width: 530px;
+	margin: 300px 400px;
+}
