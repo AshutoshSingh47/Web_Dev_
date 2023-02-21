@@ -1,4 +1,4 @@
-let arr=[];
+let arr = [];
 
 document.getElementById("add").onclick = function () { createRow() }
 
@@ -30,15 +30,15 @@ function createRow() {
 
 function validateDate() {
     let content = document.getElementById("content");
-    let x=document.querySelectorAll("input[name=date_from]");
-    let y=document.querySelectorAll("input[name=date_to]")
+    let x = document.querySelectorAll("input[name=date_from]");
+    let y = document.querySelectorAll("input[name=date_to]")
     console.log(x[0].value);
-    for(let i=0;i<content.rows.length;i++){
-        if(x[i].value!="" && y[i]!=""){
-            arr={x[i].value,y[i].value};
+    for (let i = 0; i < content.rows.length; i++) {
+        if (x[i].value != "" && y[i] != "") {
+
         }
-        else{
-            document.getElementById("result").innerHTML="Empty"; 
+        else {
+            document.getElementById("result").innerHTML = "Empty";
         }
     }
 }
