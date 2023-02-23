@@ -1,8 +1,9 @@
 .box{
     margin-top: 100px;
-    width: 120px;
+    width: fit-content;
     height: 100px;
     background-image: url("bullet.png");
     background-size: cover;
     position: relative;
 }
+
