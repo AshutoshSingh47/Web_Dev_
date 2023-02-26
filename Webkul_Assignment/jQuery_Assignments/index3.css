@@ -1,0 +1,36 @@
+.tabs{
+    background-color: black;
+    overflow: hidden;
+    width: fit-content;
+}
+.tabs button{
+    float: left;
+    padding: 14px 16px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-color: inherit;
+    color: #ccc;
+    transition: 0.4s;
+    
+}  
+.tabs button:hover{
+    background-color: #ccc;
+    color: black;
+}
+.tabs button.active{
+    background-color: #ccc;
+    color:black;
+} 
+.tabContents{
+    display: none;
+    width:fit-content;
+    padding: 8px 12px;
+    border: solid 1px;
+    border-top: none; 
+    animation:fadeEffect 1s;
+}
+@keyframes fadeEffect {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
