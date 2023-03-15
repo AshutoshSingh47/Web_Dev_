@@ -1,0 +1,15 @@
+.accordion {
+  margin: 0px auto  ;
+  width: 50%;
+  height: 50px;
+  border: solid 1px;
+  cursor: pointer;
+}
+
+.panel{
+  margin: 0px auto  ;
+  width: 50%;
+  height: fit-content;
+  border: solid 1px;
+  display: none;
+}

@@ -1,0 +1,11 @@
+.navbar{
+    background-color: #ccc;
+    display: flex;
+    flex-direction: row;
+}
+.list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
