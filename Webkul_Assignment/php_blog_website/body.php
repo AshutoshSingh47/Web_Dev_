@@ -23,13 +23,24 @@ $i = 0;
 //     print_r($values["name"]);
 // }
 ?>
+<?php
+$result=[array("blogImage"=>"images\Screenshot_20221126_145708.png"),array("blogImage"=>"images\Screenshot_20230127_214304.png")];
+echo"<pre>";print_r($result);
+// foreach($result as $values){
+//     echo($values["blogImage"]);
+// }
+?>
 <div>
     <?php
-    while ($i != 10) {
-        echo '<img src=""></img>';
-        echo '<span>jj</span>';
-        $i++;
-    }
+    
+        foreach($result as $values){
+            // echo($values["blogImage"]);
+            $image=$values["blogImage"];
+            echo "<img src='$image'></img>";
+            echo '<span>jj</span>';
+        }
+        
+        
     ?>
 
 </div>
