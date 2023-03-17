@@ -1,0 +1,23 @@
+.navbar{
+    height:50px;
+    background-color: #eee;
+}
+
+.list{
+    display: flex;
+    padding:1px 15px;
+    float: right;
+    flex-direction: row;
+    list-style: none;
+}
+
+.items{
+   padding: 0 0 0 10px;
+}
+.items:hover{
+    text-decoration: underline;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
